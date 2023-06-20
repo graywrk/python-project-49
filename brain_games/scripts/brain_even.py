@@ -3,14 +3,9 @@
 import prompt
 import random
 import sys
-import prompt
 
+from brain_games.game_engine import welcome_user
 
-def welcome_user():
-    print("Welcome to Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print("Hello, ", name, "!")
-    return name
 
 def is_even(number):
     return number % 2 == 0
