@@ -10,6 +10,9 @@ brain-even:
 brain-calc:
 	poetry run brain-calc
 
+brain-gcd:
+	poetry run brain-gcd
+
 build:
 	poetry build
 
@@ -18,6 +21,9 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl
+
+package-reinstall:
+	python3 -m pip install --user dist/*.whl --force-reinstall
 
 lint:
 	poetry run flake8 brain_games
