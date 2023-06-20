@@ -34,4 +34,4 @@ def game_cycle(questions, game_description):
         else:
             sys.exit(0)
     
-    print(f"Contgratulations, {username}!")
+    print(f"Congratulations, {username}!")
