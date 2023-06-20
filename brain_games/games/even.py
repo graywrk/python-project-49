@@ -18,4 +18,5 @@ def game():
         else:
             answer = "no"
         questions.append([question, answer])
-    game_cycle(questions, 'Answer "yes" if the number is even, otherwise answer "no".')
+    game_cycle(questions, 'Answer "yes" if the number is even, '
+                          'otherwise answer "no".')

@@ -1,5 +1,4 @@
 import random
-import math
 from brain_games.game_engine import game_cycle
 
 
