@@ -12,7 +12,7 @@ def game():
         progression_length = 10
         first = random.randint(1, max_random_number)
         step = random.randint(1, max_random_number)
-        blank_num = random.randrange(progression_length-1)
+        blank_num = random.randint(1, progression_length-1)
         question = f"{first}"
         answer = ""
         for i in range(1, progression_length):
