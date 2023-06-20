@@ -10,8 +10,8 @@ def game():
     random.seed()
     for _ in range(questions_num):
         progression_length = 10
-        first = random.randrange(max_random_number)
-        step = random.randrange(max_random_number)
+        first = random.randint(1, max_random_number)
+        step = random.randint(1, max_random_number)
         blank_num = random.randrange(progression_length-1)
         question = f"{first}"
         answer = ""
