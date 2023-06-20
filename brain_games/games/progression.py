@@ -9,11 +9,12 @@ def game():
     max_random_number = 10
     random.seed()
     for _ in range(questions_num):
-        progression_length = 9
+        progression_length = 10
         first = random.randrange(max_random_number)
         step = random.randrange(max_random_number)
-        blank_num = random.randrange(progression_length)
+        blank_num = random.randrange(progression_length-1)
         question = f"{first}"
+        answer = ""
         for i in range(1, progression_length):
             num = first + step * i
             if i == blank_num:
