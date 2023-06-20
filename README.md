@@ -4,4 +4,4 @@
 [![Actions Status](https://github.com/graywrk/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/graywrk/python-project-49/actions)
 
 ### Asciinema
-[![Asciinema] (https://asciinema.org/connect/da9bcc16-2960-4ba3-909c-7b8c01bac7f6)]
+[![asciicast](https://asciinema.org/a/kPELxIAirhILy86q4ObK90Iyg.svg)](https://asciinema.org/a/kPELxIAirhILy86q4ObK90Iyg)
